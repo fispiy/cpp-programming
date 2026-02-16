@@ -18,5 +18,11 @@
     <ClCompile Include="helloworld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="newfunc.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="newfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

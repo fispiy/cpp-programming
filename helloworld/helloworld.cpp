@@ -1,7 +1,9 @@
 // this is my first working CPP program
 
 #include <iostream> // header file where we work with input and output, what is a header?
+#include "newfunc.h"
 using namespace std; // we can use objects and variables from this library 
+
 
 /* 
 This would be a function docstring comment
@@ -21,7 +23,6 @@ char studentGrade = 'B';
 
 
 
-
 int main() {
 	/*
 	This is my first function
@@ -36,5 +37,6 @@ int main() {
 	cout << (eighteen > myAge) << endl;
 	cout << (eighteen < myAge) << endl;
 	cout << "Student ID " << studentAge << "\n";
+	check_age(eighteen, myAge);
 	return 0;
 }
